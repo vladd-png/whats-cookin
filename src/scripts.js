@@ -55,7 +55,7 @@ function loadAll(event) {
 //   loadRecipes.addEventListener('click', loadAll(event));
 // }
 
-function createCard(event) {
+function createAllCards(event) {
   console.log('load recipes');
   console.log('hello');
   cookbook.cookbook.map(recipe => {
